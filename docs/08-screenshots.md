@@ -261,7 +261,7 @@ This proves that the project was versioned with Git.
 
 File:
 
-`github respository.png`
+`github repository.png`
 
 Description:
 
