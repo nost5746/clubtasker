@@ -6,13 +6,23 @@ This document lists the screenshots that were created during the development of 
 
 The screenshots are used as proof that the project was developed step by step.
 
-They show the project setup, the development environment, the backend, the frontend, the API output, the Git workflow, and the GitHub repository.
+They show the project setup, the development environment, the backend, the frontend, the API output, the documentation, the Git workflow, and the GitHub repository.
+
+The screenshot files are stored in:
+
+`docs/screenshots/`
 
 ---
 
 ## Screenshot 1: Initial Project Structure
 
-This screenshot shows the first project structure in Visual Studio Code.
+File:
+
+`initial project structure.png`
+
+Description:
+
+This screenshot shows the initial project structure in Visual Studio Code.
 
 Visible elements:
 
@@ -28,6 +38,12 @@ This proves that the project was started with a clear folder structure.
 
 ## Screenshot 2: Project Idea Documentation
 
+File:
+
+`project idea documentation.png`
+
+Description:
+
 This screenshot shows the file `docs/01-idea.md`.
 
 Purpose:
@@ -38,27 +54,33 @@ This proves that the project idea was documented at the beginning.
 
 ## Screenshot 3: README File
 
-This screenshot shows the first version of the `README.md` file.
+Files:
+
+- `README file.png`
+- `README file_01.png`
+
+Description:
+
+These screenshots show the `README.md` file during the documentation process.
 
 Purpose:
 
-This proves that the project goal, technologies, and structure were documented.
+They prove that the project goal, technologies, and structure were documented.
 
 ---
 
-## Screenshot 4: Correct Project Structure
+## Screenshot 4: Tool Installation Check
 
-This screenshot shows the corrected project structure with the `README.md` file in the main project folder.
+Files:
 
-Purpose:
+- `tool installation check a.png`
+- `tool installation check b.png`
 
-This proves that the project files were organized correctly.
+Description:
 
----
+These screenshots show the terminal commands used to check the installed tools.
 
-## Screenshot 5: Tool Installation Check
-
-This screenshot shows the terminal commands:
+Visible commands:
 
 - `node -v`
 - `npm.cmd -v`
@@ -70,35 +92,38 @@ This proves that Node.js, npm, and Git were installed and checked.
 
 ---
 
-## Screenshot 6: Backend Initialization
+## Screenshot 5: Backend Initialization
 
-This screenshot shows the backend initialization with:
+Files:
+
+- `backend initialization.png`
+- `backend initialization 01.png`
+
+Description:
+
+These screenshots show the backend setup in Visual Studio Code and the terminal.
+
+Visible elements:
 
 - `npm.cmd init -y`
 - `npm.cmd install express cors`
+- `package.json`
+- `package-lock.json`
+- backend folders
 
 Purpose:
 
-This proves that the backend project was created and the required packages were installed.
+This proves that the backend project was initialized and that the required packages were installed.
 
 ---
 
-## Screenshot 7: Backend Folder Structure
+## Screenshot 6: First Backend Server
 
-This screenshot shows the backend folders:
+File:
 
-- `controllers`
-- `database`
-- `models`
-- `routes`
+`first backend server.png`
 
-Purpose:
-
-This proves that the backend was prepared with separate modules.
-
----
-
-## Screenshot 8: First Backend Server
+Description:
 
 This screenshot shows the file `backend/server.js`.
 
@@ -108,48 +133,51 @@ This proves that an Express backend server was created.
 
 ---
 
-## Screenshot 9: Backend API Output
+## Screenshot 7: Backend API Output
 
-This screenshot shows JSON output in the browser from:
+File:
+
+`backend api output.png`
+
+Description:
+
+This screenshot shows JSON output in the browser from the backend API.
+
+Visible API route:
 
 - `http://localhost:3000/api/events`
-- `http://localhost:3000/api/tasks`
 
 Purpose:
 
-This proves that the backend returns data through API routes.
+This proves that the backend returns data through an API route.
 
 ---
 
-## Screenshot 10: Modular Backend
+## Screenshot 8: Vite Frontend Start Page
 
-This screenshot shows the modular backend files in Visual Studio Code.
+File:
 
-Visible modules:
+`vite frontend start page.png`
 
-- routes
-- controllers
-- models
+Description:
+
+This screenshot shows the default React/Vite start page.
 
 Purpose:
 
-This proves that the backend code was separated into modules.
+This proves that the frontend project was created and started successfully.
 
 ---
 
-## Screenshot 11: Vite Frontend Start Page
+## Screenshot 9: ClubTasker GUI
 
-This screenshot shows the first running React/Vite frontend.
+File:
 
-Purpose:
+`clubtasker gui.png`
 
-This proves that the frontend project was created successfully.
+Description:
 
----
-
-## Screenshot 12: ClubTasker GUI
-
-This screenshot shows the final ClubTasker user interface.
+This screenshot shows the custom ClubTasker user interface.
 
 Visible elements:
 
@@ -161,23 +189,21 @@ Visible elements:
 
 Purpose:
 
-This proves that a custom graphical user interface was created.
+This proves that a custom graphical user interface was created and that the frontend communicates with the backend.
 
 ---
 
-## Screenshot 13: Backend Connected
+## Screenshot 10: Task Status Update
 
-This screenshot shows the backend status as `connected`.
+File:
 
-Purpose:
+`task status update.png`
 
-This proves that the React frontend communicates with the Express backend.
+Description:
 
----
+This screenshot shows the task cards with interactive buttons.
 
-## Screenshot 14: Task Status Update
-
-This screenshot shows the task cards with buttons:
+Visible buttons:
 
 - Open
 - In progress
@@ -191,19 +217,39 @@ This proves that the frontend can send a change to the backend and update the us
 
 ---
 
-## Screenshot 15: Documentation Files
+## Screenshot 11: Documentation Files
 
-This screenshot shows the Markdown documentation files in the `docs` folder.
+File:
+
+`documentation files.png`
+
+Description:
+
+This screenshot shows the Markdown documentation file `07-testing.md`.
 
 Purpose:
 
-This proves that the development process was documented step by step.
+This proves that the testing process and the task status update feature were documented.
 
 ---
 
-## Screenshot 16: Git Commit
+## Screenshot 12: Git Commit
 
-This screenshot shows the successful first Git commit.
+Files:
+
+- `git commit 1.png`
+- `git commit 2.png`
+- `git commit 3.png`
+
+Description:
+
+These screenshots show the Git workflow in the terminal.
+
+Visible Git commands and results:
+
+- `git add .`
+- `git status`
+- `git commit -m "Initial ClubTasker project"`
 
 Purpose:
 
@@ -211,7 +257,13 @@ This proves that the project was versioned with Git.
 
 ---
 
-## Screenshot 17: GitHub Repository
+## Screenshot 13: GitHub Repository
+
+File:
+
+`github respository.png`
+
+Description:
 
 This screenshot shows the uploaded GitHub repository.
 
