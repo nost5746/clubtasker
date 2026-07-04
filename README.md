@@ -140,6 +140,8 @@ The documentation files are:
 - `05-development-steps.md`: documents the development process step by step.
 - `06-code-explanation.md`: explains the most important code parts.
 - `07-testing.md`: documents the tests and results.
+- `08-screenshots.md`: documents the screenshots created during development.
+- `09-requirements-traceability.md`: summarizes vision, mission, roadmap, technology, tech stack, and task-to-validation mapping.
 
 ## Screenshots
 
